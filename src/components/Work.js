@@ -19,7 +19,10 @@ function Work() {
             <img className= "grid-img " src={Spendsy_Landing}/>
           <div className="img-description-layer">
             <h1 className="project-name">Spendsy</h1>
-            <p className="description">Full-Stack, React Js, Custom CSS, Ruby, Active Record, SQL
+            <p className="description">
+              <strong>Coming Soon</strong>
+              <br />
+              Full-Stack, React Js, Custom CSS, Ruby, Active Record, SQL
             </p>
           </div>
           </div>
