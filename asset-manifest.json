@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Aidan-Margo-Portfolio/static/css/main.b9cf284c.chunk.css",
+    "main.js": "/Aidan-Margo-Portfolio/static/js/main.79f7224a.chunk.js",
+    "main.js.map": "/Aidan-Margo-Portfolio/static/js/main.79f7224a.chunk.js.map",
+    "runtime-main.js": "/Aidan-Margo-Portfolio/static/js/runtime-main.6086d6f8.js",
+    "runtime-main.js.map": "/Aidan-Margo-Portfolio/static/js/runtime-main.6086d6f8.js.map",
+    "static/css/2.383c0125.chunk.css": "/Aidan-Margo-Portfolio/static/css/2.383c0125.chunk.css",
+    "static/js/2.938ebd74.chunk.js": "/Aidan-Margo-Portfolio/static/js/2.938ebd74.chunk.js",
+    "static/js/2.938ebd74.chunk.js.map": "/Aidan-Margo-Portfolio/static/js/2.938ebd74.chunk.js.map",
+    "index.html": "/Aidan-Margo-Portfolio/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/Aidan-Margo-Portfolio/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.b9cf284c.chunk.css.map": "/Aidan-Margo-Portfolio/static/css/main.b9cf284c.chunk.css.map",
+    "static/js/2.938ebd74.chunk.js.LICENSE.txt": "/Aidan-Margo-Portfolio/static/js/2.938ebd74.chunk.js.LICENSE.txt",
+    "static/media/Braise_Home.b62d7a6d.png": "/Aidan-Margo-Portfolio/static/media/Braise_Home.b62d7a6d.png",
+    "static/media/Spendsy_Landing.be2a7aa7.png": "/Aidan-Margo-Portfolio/static/media/Spendsy_Landing.be2a7aa7.png",
+    "static/media/headshot.6858f9f2.JPG": "/Aidan-Margo-Portfolio/static/media/headshot.6858f9f2.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6086d6f8.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.938ebd74.chunk.js",
+    "static/css/main.b9cf284c.chunk.css",
+    "static/js/main.79f7224a.chunk.js"
+  ]
+}
