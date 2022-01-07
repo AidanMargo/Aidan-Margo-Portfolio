@@ -23,7 +23,7 @@ function Nav({scrollTo}) {
 
   return ( 
     <nav className={`${show && 'myNav'}`}>
-      <a href="https://docs.google.com/document/d/e/2PACX-1vTwWE5TZzM2IBq4DD0mnS_zR1Hl6yyknWr_TSP1rhvvDqyPbu3VpSZ_5ggQiuwo4GDLFaC1aMRT0Jtw/pub">
+      <a href="https://docs.google.com/document/d/e/2PACX-1vQ-izdIZbX1muxo67ByaV_G-bqO_LQ-MpM0CSpJRH9tDkgGBEEMmTSuQ52dn1kNLF_az0nhwZV-UMyv/pub">
       <span class={`${show && 'navlink'}`} >04. Resume</span>
       </a>
       <span class={`${show && 'navlink'}`} onClick={() => scrollTo('contact')}>03. Contact</span>
