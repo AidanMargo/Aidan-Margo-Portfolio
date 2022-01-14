@@ -17,14 +17,17 @@ function Work() {
 
           <div className='grid-long img-wrap'>
             <img className= "grid-img " src={Rostrum_Landing} alt="project-thumbnail"/>
-          <div className="img-description-layer">
-            <h1 className="project-name">Rostrum</h1>
-            <p className="description">
-              <strong>Demo Coming Soon</strong>
-              <br />
-              Full-Stack, React.js, Custom CSS, Material-UI, Ruby on Rails, SQL
-            </p>
-          </div>
+            <a href="https://vimeo.com/664445859" target="_blank" rel="noopener noreferrer">
+              <div className="img-description-layer">
+                <h1 className="project-name">Rostrum</h1>
+                <p className="description">
+                  <strong>Click to watch the demo!</strong>
+                  <br />
+                  Full-Stack, React.js, Custom CSS, Material-UI, Ruby on Rails, SQL
+                </p>
+              </div>
+            </a>
+          
           </div>
           <div className='grid-long img-wrap'>
             <img className= "grid-img " src={Game_On_Landing} alt="project-thumbnail"/>
@@ -50,7 +53,7 @@ function Work() {
           </div>
           <div className='grid-long img-wrap'>
             <img className= "grid-img " src={Braise_Home} alt="project-thumbnail"/>
-          <a href="https://modest-spence-066fb1.netlify.app/">
+          <a href="https://modest-spence-066fb1.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="img-description-layer">
               <h1 className="project-name">Braise</h1>
               <p className="description">Front-end, React JS, ReactBootstrap</p>
