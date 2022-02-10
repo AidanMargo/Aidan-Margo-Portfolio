@@ -17,13 +17,17 @@ function About(){
 
           <p>Here are some technologies I've worked with recently: </p>
           <ul id='tech-list'>
-            <li>- HTML 5</li>
+            <li>- HTML5</li>
             <li>- CSS</li>
             <li>- Javascript (ES6)</li>
             <li>- React</li>
             <li>- Ruby</li>
-            <li>- SQL</li>
             <li>- Active Record</li>
+            <li>- Rails</li>
+            <li>- Material UI</li>
+            <li>- Figma</li>
+            <li>- GSAP</li>
+            <li>- SQL</li>
           </ul>
           </div>
         <img src={headshot} id="headshot" alt="Aidan Margo"/>

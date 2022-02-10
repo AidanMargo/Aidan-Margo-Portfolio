@@ -29,17 +29,7 @@ function Work() {
             </a>
           
           </div>
-          <div className='grid-long img-wrap'>
-            <img className= "grid-img " src={Game_On_Landing} alt="project-thumbnail"/>
-          <div className="img-description-layer">
-            <h1 className="project-name">Game On</h1>
-            <p className="description">
-              <strong>Demo Coming Soon</strong>
-              <br />
-              Full-Stack, React Js, Custom CSS, Ruby on Rails, SQL
-            </p>
-          </div>
-          </div>
+          
           <div className='grid-long img-wrap'>
             <img className= "grid-img " src={Spendsy_Landing} alt="project-thumbnail"/>
           <div className="img-description-layer">
@@ -48,6 +38,17 @@ function Work() {
               <strong>Demo Coming Soon</strong>
               <br />
               Full-Stack, React Js, Custom CSS, Ruby, Active Record, SQL
+            </p>
+          </div>
+          </div>
+          <div className='grid-long img-wrap'>
+            <img className= "grid-img " src={Game_On_Landing} alt="project-thumbnail"/>
+          <div className="img-description-layer">
+            <h1 className="project-name">Game On</h1>
+            <p className="description">
+              <strong>Demo Coming Soon</strong>
+              <br />
+              Full-Stack, React Js, Custom CSS, Ruby on Rails, SQL
             </p>
           </div>
           </div>
