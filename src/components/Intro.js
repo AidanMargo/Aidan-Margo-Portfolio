@@ -2,8 +2,8 @@
 
 function Intro({scrollTo}){
   return (
-    <div class="container">
-      <div class="intro">
+    <div className="container">
+      <div className="intro">
         <h3>Hi, <span id='name'>I'm Aidan</span>, and</h3>
         <h1>I help people create things.</h1>
         <p id="bio">I'm a software engineer  with big dreams to change the world through technology

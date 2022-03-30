@@ -5,7 +5,7 @@ import Game_On_Landing from '../images/Game_On_Landing.png'
 
 function Work() {
   return(
-    <div class='container'>
+    <div className='container'>
       <div id='work'>
         <h2>Work</h2>
         <p>Growing and constantly developing my skills is my top priority in everything that I do. 

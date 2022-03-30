@@ -3,6 +3,7 @@ import Intro from './Intro'
 import About from './About'
 import Work from './Work';
 import Contact from './Contact'
+import {useState} from 'react'
 
 function App() {
 
@@ -11,9 +12,12 @@ function App() {
     element.scrollIntoView({behavior: 'smooth', block: 'start'})
   }
 
+  const [menuActive, setMenuActive] = useState(false)
+
+
   return (
     <div className="App">
-      <Nav scrollTo={scrollTo}/>
+      <Nav scrollTo={scrollTo} menuActive={menuActive} setMenuActive={setMenuActive}/>
       <Intro scrollTo={scrollTo}/>
       <About />
       <Work />

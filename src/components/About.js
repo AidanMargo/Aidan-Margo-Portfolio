@@ -2,7 +2,7 @@ import headshot from '../images/headshot.JPG'
 
 function About(){
   return(
-    <div class="container">
+    <div className="container">
       <div id="about">
         <div>
         <h2>About Me</h2>
