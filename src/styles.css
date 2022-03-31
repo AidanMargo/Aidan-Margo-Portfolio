@@ -298,7 +298,7 @@
 @media(min-width:376px) {
 
 
-  .social-media-links {
+  .social-media-links-hide {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -307,10 +307,10 @@
     margin-left: 2rem;
   }
   
-  .social-media-links a {
+  .social-media-links-hide a {
     color: #4681b5 ;
   }
-  .social-media-links::after {
+  .social-media-links-hide::after {
     content: "";
     display: block;
     width: 1px;
@@ -319,7 +319,7 @@
     background-color: rgb(233, 182, 105);
   }
   
-  .social-media-links a i:hover {
+  .social-media-links-hide a i:hover {
     color: #95f3ff;
   }
   
