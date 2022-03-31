@@ -20,6 +20,7 @@
   .myNav {
     padding-right: 1em;
     position: fixed;
+    z-index: 2;
     top: 0;
     right: 0;
     width: 100%;
@@ -27,7 +28,8 @@
 
   .menu-icon {
     transform: scale(0.75);
-    float: right;
+    right: 1rem;
+    position: fixed;
   }
 
   .bar1, .bar2, .bar3 {
@@ -55,8 +57,14 @@
     transform: rotate(45deg) translate(-9px, -8px) ;
   }
   
-  .dark {
+  .link-menu {
     background-color: #ffb74d;
+    height: 5rem;
+    position: absolute;
+  }
+
+  .dark {
+    background-color: #0a192f;
     color: #ffb74d;
   }
   
@@ -75,7 +83,7 @@
   /* Intro Section */
   .intro {
     background-color: inherit;
-    margin-top: 20%;
+    margin-top: 25%;
     height: fit-content;
     width: min-content;
   }
@@ -100,18 +108,14 @@
   }
   
   #bio {
-    color: #29cadf;
-    margin-top: 22vh;
-    line-height: 2;
-    font-size: 1.1rem;
-    font-weight: 500;
+    display: none;
   }
   
   #hire-me {
     padding: 0.5rem;
     font-size: 1.5rem;
     width: 8em;
-    margin-top: 4%;
+    margin-top: 1.5em;
     color: #07ede2;
     background-color: #0a192f3b;
     border-radius: 5px;
@@ -173,7 +177,7 @@
   #work {
     height: 100%;
     padding-bottom: 5vh;
-    margin: 5vh auto;
+    margin: 5vh;
   }
   
   #work p {
@@ -267,11 +271,27 @@
     color: #4681b5;
   }
   
-  foot p {
-    color: #8d8d8d;
-    text-align: right;
-    font-size: 0.75rem;
-  }  
+  .social-media-links-show {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    position: fixed;
+    top: 1rem;
+    z-index: 3;
+    list-style: none;
+  }
+
+  .social-media-links-hide {
+    display: none;
+  }
+  
+  .social-media-links-show a {
+    color: #0a192f ;
+    font-size: 1.75rem;
+  
+  }
+
+
 }
 
 
@@ -307,10 +327,11 @@
   .myNav {
     padding-right: 1em;
     position: fixed;
+    z-index: 2;
     top: 0;
     right: 0;
     width: 100%;
-    background: rgb(255 183 77 / 85%);
+    background: rgb(255 183 77);
     transition: 0.5s ease-in-out;
   }
   

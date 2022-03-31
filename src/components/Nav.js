@@ -1,24 +1,9 @@
 import {useEffect, useState} from 'react'
-
+import Menu from './Menu'
 
 function Nav({scrollTo, menuActive, setMenuActive}) {
  
-  // const [show, setShow] = useState(true)
-
-  // const showNavbar = () => {
-  //   if(window.scrollY > 100){
-  //     setShow(false)
-  //   } else {
-  //     setShow(true)
-  //   }
-  // }
-
-    // useEffect( () => {
-    //     window.addEventListener('scroll', showNavbar)
-    //     return () =>{
-    //       window.removeEventListener('scroll', showNavbar)
-    //     }
-    // }, [])
+  
 
 
   return ( 
@@ -31,15 +16,20 @@ function Nav({scrollTo, menuActive, setMenuActive}) {
         <span className={`${'navlink'}`} onClick={() => scrollTo('work')}>02. Work</span>
         <span className={`${'navlink'}`} onClick={() => scrollTo('about')}>01. About</span>
 
-        <div className={`menu-icon ${menuActive && 'change'}`} 
-        onClick={() => setMenuActive(!menuActive)}>
-          <div className={`bar1 ${menuActive && 'dark'}`}></div>
-          <div className={`bar2 ${menuActive && 'dark'}`}></div>
-          <div className={`bar3 ${menuActive && 'dark'}`}></div>
+        
+        <div>
+          {menuActive && <Menu menuActive={menuActive} />}
+          <div className={`menu-icon ${menuActive && 'change'}`} 
+          onClick={() => setMenuActive(!menuActive)}>
+            <div className={`bar1 ${menuActive && 'dark'}`}></div>
+            <div className={`bar2 ${menuActive && 'dark'}`}></div>
+            <div className={`bar3 ${menuActive && 'dark'}`}></div>
+          </div>
         </div>
       </nav>
+
       <div>
-        <ul className="social-media-links">
+        <ul className={menuActive ? `social-media-links-show` : `social-media-links-hide`} >
           <li><a href="https://github.com/AidanMargo" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
           <li><a href="https://www.linkedin.com/in/aidan-margo-216448181/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
           <li><a href="https://twitter.com/MargoWebDev" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
