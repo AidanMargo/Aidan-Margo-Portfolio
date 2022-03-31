@@ -27,7 +27,6 @@
 
   .menu-icon {
     transform: scale(0.75);
-    margin-right: 20%;
     float: right;
   }
 
@@ -102,7 +101,7 @@
   
   #bio {
     color: #29cadf;
-    margin-top: 1.25em;
+    margin-top: 22vh;
     line-height: 2;
     font-size: 1.1rem;
     font-weight: 500;
@@ -126,7 +125,8 @@
   /* About Section */
   
   #about {
-    margin-left: 5%;
+    margin: 15vh auto;
+    margin-bottom: 0;
     height: fit-content;
     width: min-content;
     padding-bottom: 10vh;
@@ -136,6 +136,10 @@
     margin-top: 10%;
   }
    
+  h2 {
+    color: #daa049;
+  }
+
   #about h2, p {
     grid-column: 1/2;
   }
@@ -167,14 +171,13 @@
   /* Work Section */
   
   #work {
-    /* margin-top: ; */
     height: 100%;
     padding-bottom: 5vh;
-    margin-left: 10%;
+    margin: 5vh auto;
   }
   
   #work p {
-    width: 80%;
+    width: 100%;
     margin-bottom: 2rem;
   }
   
@@ -205,7 +208,8 @@
   
   .description {
     color: white;
-    font-size: 1.3rem;
+    font-size: 0.5rem;
+
   }
   
   .img-description-layer {
@@ -229,8 +233,8 @@
   }
   .project-name {
     color: #ffb74d;
-    font-size: 3rem;
-    margin-top: 1rem;
+    font-size: 1rem;
+    margin-top: 2rem;
   }
   .img-wrap:hover .img-description-layer {
     visibility: visible;
@@ -250,12 +254,11 @@
   
   /* Contact Section */
   #contact {
-    margin-left: 10%;
     height: 20vh;
   }
   
   #contact p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
   }
   
@@ -351,15 +354,6 @@
     font-size: 3rem;
   }
   
-  h2::after {
-    content: "";
-    display: block;
-    width: 20rem;
-    height: 2px;
-    margin: 0px;
-    background-color: #3a8fbd;
-  }
-  
   
   /* Intro Section */
   .intro {
@@ -367,7 +361,6 @@
     margin-left: 10%;
     margin-top: 15%;
     height: 90vh;
-  
   }
   
   .intro h3 {
