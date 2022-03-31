@@ -23,7 +23,7 @@ function Work() {
                 <p className="description">
                   <strong>Click to watch the demo!</strong>
                   <br />
-                  Full-Stack, React.js, Custom CSS, Material-UI, Ruby on Rails, SQL
+                  Full-Stack, React.js, Custom CSS, Material-UI, Ruby on Rails, postgresSQL
                 </p>
               </div>
             </a>
@@ -32,15 +32,18 @@ function Work() {
           
           <div className='grid-long img-wrap'>
             <img className= "grid-img " src={Spendsy_Landing} alt="project-thumbnail"/>
-          <div className="img-description-layer">
-            <h1 className="project-name">Spendsy</h1>
-            <p className="description">
-              <strong>Demo Coming Soon</strong>
-              <br />
-              Full-Stack, React Js, Custom CSS, Ruby, Active Record, SQL
-            </p>
+            <a href="https://vimeo.com/manage/videos/693599170" target="_blank" rel="noopener noreferrer">
+              <div className="img-description-layer">
+                <h1 className="project-name">Spendsy</h1>
+                <p className="description">
+                  <strong>Click to watch the demo!</strong>
+                  <br />
+                  Full-Stack, React.js, Ruby on Rails, Custom CSS, postgreSQL
+                </p>
+              </div>
+            </a>
           </div>
-          </div>
+          
           <div className='grid-long img-wrap'>
             <img className= "grid-img " src={Game_On_Landing} alt="project-thumbnail"/>
           <div className="img-description-layer">
